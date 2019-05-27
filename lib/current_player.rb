@@ -2,12 +2,12 @@
 
 def turn_count(board)
   turn = 0
-    board.each do |xo|
-      if xo == "X" || xo == "O"
-      turn += 1
-      end
+   board.each do |xo|
+    if xo == "X" || xo == "O"
+    turn += 1
     end
-    return turn
+  end
+  return turn
 end
 
 #The `#current_player` method should take in an argument of the game board and use the `#turn_count` method to determine if it is `"X"`'s turn or `"O"`'s.
