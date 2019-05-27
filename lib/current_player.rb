@@ -6,6 +6,7 @@ def turn_count(board)
       if xo == "O" || xo == "X"
       counter += 1
     end
+    end
   
 end
 
