@@ -7,7 +7,7 @@ def turn_count(board)
       turn += 1
       end
     end
-  return turn
+    return turn
 end
 
 #The `#current_player` method should take in an argument of the game board and use the `#turn_count` method to determine if it is `"X"`'s turn or `"O"`'s.
