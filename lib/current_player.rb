@@ -19,6 +19,6 @@ def current_player(turn)
   if turn % 2 == 0
     return "O"
   else
-    return "O"
+    return "X"
   end  
 end
